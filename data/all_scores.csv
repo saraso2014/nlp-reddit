@@ -1,0 +1,277 @@
+Model,Transform,Train Score,Test Score
+lr,cvec,0.99,0.98
+lr,cvec,0.9211434263916224,0.9060461387076788
+lr,tvec,0.9109871953738125,0.9033492474215532
+lr,cvec,0.9273392132565542,0.9064834724297532
+lr,tvec,0.9131010520689068,0.9034950253289112
+lr,cvec,0.9273392132565542,0.9064834724297532
+mnb,cvec,0.9067351847802316,0.9014541346258974
+mnb,cvec,0.9067351847802316,0.9014541346258974
+lr,cvec,0.9247637096970138,0.906665694813951
+dt,cvec,0.9605534902932672,0.8725172200153066
+dt,cvec,0.9605534902932672,0.8719705528627136
+dt,cvec,0.9582331073693418,0.8711323298954043
+mnb,cvec,0.9067351847802316,0.9014541346258974
+dt,cvec,0.9605534902932672,0.872881664783702
+lr,cvec,0.9273392132565542,0.9064834724297532
+mnb,tvec,0.90182714969507,0.8968256860672765
+mnb,cvec,0.9067351847802316,0.9014541346258974
+mnb,tvec,0.90182714969507,0.8968256860672765
+lr,tvec,0.9109871953738125,0.9033492474215532
+lr,cvec,0.9273392132565542,0.9064834724297532
+lr,cvec,0.9273392132565542,0.9064834724297532
+lr,tvec,0.9131010520689068,0.9034950253289112
+lr,cvec,0.9247637096970138,0.906665694813951
+lr,cvec,0.9273392132565542,0.9064834724297532
+mnb,cvec,0.9067351847802316,0.9014541346258974
+lr,tvec,0.9109871953738125,0.9033492474215532
+dt,cvec,0.9605534902932672,0.8725536644921462
+mnb,tvec,0.90182714969507,0.8968256860672765
+lr,cvec,0.9273392132565542,0.9064834724297532
+mnb,cvec,0.9067351847802316,0.9014541346258974
+dt,cvec,0.9582331073693418,0.8711687743722439
+mnb,tvec,0.90182714969507,0.8968256860672765
+lr,tvec,0.9131010520689068,0.9034950253289112
+lr,cvec,0.9247637096970138,0.906665694813951
+mnb,tvec,0.9018271496950699,0.8968256860672765
+lr,cvec,0.9273392132565542,0.9064834724297532
+dt,cvec,0.9605413416915712,0.8724078865847881
+dt,cvec,0.9551716597419636,0.8713509967564416
+lr,cvec,0.9247637096970138,0.906665694813951
+lr,cvec,0.9247637096970138,0.906665694813951
+dt,cvec,0.9605534902932672,0.8721527752469114
+dt,cvec,0.9582331073693418,0.8714967746637997
+dt,cvec,0.9605413416915712,0.8722985531542695
+dt,cvec,0.9551716597419636,0.8714603301869601
+dt,cvec,0.9551716597419636,0.8715332191406392
+lr,cvec,0.9247637096970138,0.906665694813951
+"GridSearchCV(cv=5, error_score=nan,
+             estimator=Pipeline(memory=None,
+                                steps=[('cvec',
+                                        CountVectorizer(analyzer='word',
+                                                        binary=False,
+                                                        decode_error='strict',
+                                                        dtype=<class 'numpy.int64'>,
+                                                        encoding='utf-8',
+                                                        input='content',
+                                                        lowercase=True,
+                                                        max_df=1.0,
+                                                        max_features=None,
+                                                        min_df=1,
+                                                        ngram_range=(1, 1),
+                                                        preprocessor=None,
+                                                        stop_words=None,
+                                                        strip_accents=None,
+                                                        token_pattern='(?u)...
+                                                           intercept_scaling=1,
+                                                           l1_ratio=None,
+                                                           max_iter=100,
+                                                           multi_class='auto',
+                                                           n_jobs=None,
+                                                           penalty='l2',
+                                                           random_state=None,
+                                                           solver='lbfgs',
+                                                           tol=0.0001,
+                                                           verbose=0,
+                                                           warm_start=False))],
+                                verbose=False),
+             iid='deprecated', n_jobs=-1,
+             param_grid={'cvec__max_features': [15000],
+                         'cvec__ngram_range': [(1, 3)]},
+             pre_dispatch='2*n_jobs', refit=True, return_train_score=False,
+             scoring=None, verbose=0)",cvec,0.9247637096970138,0.906665694813951
+mnb,cvec,0.9067351847802316,0.9014541346258974
+"GridSearchCV(cv=5, error_score=nan,
+             estimator=Pipeline(memory=None,
+                                steps=[('cvec',
+                                        CountVectorizer(analyzer='word',
+                                                        binary=False,
+                                                        decode_error='strict',
+                                                        dtype=<class 'numpy.int64'>,
+                                                        encoding='utf-8',
+                                                        input='content',
+                                                        lowercase=True,
+                                                        max_df=1.0,
+                                                        max_features=None,
+                                                        min_df=1,
+                                                        ngram_range=(1, 1),
+                                                        preprocessor=None,
+                                                        stop_words=None,
+                                                        strip_accents=None,
+                                                        token_pattern='(?u)...
+                                                           intercept_scaling=1,
+                                                           l1_ratio=None,
+                                                           max_iter=100,
+                                                           multi_class='auto',
+                                                           n_jobs=None,
+                                                           penalty='l2',
+                                                           random_state=None,
+                                                           solver='lbfgs',
+                                                           tol=0.0001,
+                                                           verbose=0,
+                                                           warm_start=False))],
+                                verbose=False),
+             iid='deprecated', n_jobs=-1,
+             param_grid={'cvec__max_features': [15000],
+                         'cvec__ngram_range': [(1, 3)]},
+             pre_dispatch='2*n_jobs', refit=True, return_train_score=False,
+             scoring=None, verbose=0)",cvec,0.9247637096970138,0.906665694813951
+"GridSearchCV(cv=5, error_score=nan,
+             estimator=Pipeline(memory=None,
+                                steps=[('cvec',
+                                        CountVectorizer(analyzer='word',
+                                                        binary=False,
+                                                        decode_error='strict',
+                                                        dtype=<class 'numpy.int64'>,
+                                                        encoding='utf-8',
+                                                        input='content',
+                                                        lowercase=True,
+                                                        max_df=1.0,
+                                                        max_features=None,
+                                                        min_df=1,
+                                                        ngram_range=(1, 1),
+                                                        preprocessor=None,
+                                                        stop_words=None,
+                                                        strip_accents=None,
+                                                        token_pattern='(?u)\\b\\w\\w+\\b',
+                                                        tokenizer=None,
+                                                        vocabulary=None)),
+                                       ('mnb',
+                                        MultinomialNB(alpha=1.0,
+                                                      class_prior=None,
+                                                      fit_prior=True))],
+                                verbose=False),
+             iid='deprecated', n_jobs=-1,
+             param_grid={'cvec__max_features': [1000, 5000, 10000],
+                         'cvec__ngram_range': [(1, 1), (1, 2), (1, 3)]},
+             pre_dispatch='2*n_jobs', refit=True, return_train_score=False,
+             scoring=None, verbose=0)",cvec,0.9067351847802316,0.9014541346258974
+"GridSearchCV(cv=5, error_score=nan,
+             estimator=Pipeline(memory=None,
+                                steps=[('tvec',
+                                        TfidfVectorizer(analyzer='word',
+                                                        binary=False,
+                                                        decode_error='strict',
+                                                        dtype=<class 'numpy.float64'>,
+                                                        encoding='utf-8',
+                                                        input='content',
+                                                        lowercase=True,
+                                                        max_df=1.0,
+                                                        max_features=None,
+                                                        min_df=1,
+                                                        ngram_range=(1, 1),
+                                                        norm='l2',
+                                                        preprocessor=None,
+                                                        smooth_idf=True,
+                                                        stop_words=None,
+                                                        strip_acce...
+                                                        token_pattern='(?u)\\b\\w\\w+\\b',
+                                                        tokenizer=None,
+                                                        use_idf=True,
+                                                        vocabulary=None)),
+                                       ('mnb',
+                                        MultinomialNB(alpha=1.0,
+                                                      class_prior=None,
+                                                      fit_prior=True))],
+                                verbose=False),
+             iid='deprecated', n_jobs=-1,
+             param_grid={'tvec__max_features': [1000, 5000, 10000],
+                         'tvec__ngram_range': [(1, 1), (1, 2), (1, 3)]},
+             pre_dispatch='2*n_jobs', refit=True, return_train_score=False,
+             scoring=None, verbose=0)",tvec,0.9018271496950699,0.8968256860672765
+"GridSearchCV(cv=5, error_score=nan,
+             estimator=Pipeline(memory=None,
+                                steps=[('cvec',
+                                        CountVectorizer(analyzer='word',
+                                                        binary=False,
+                                                        decode_error='strict',
+                                                        dtype=<class 'numpy.int64'>,
+                                                        encoding='utf-8',
+                                                        input='content',
+                                                        lowercase=True,
+                                                        max_df=1.0,
+                                                        max_features=None,
+                                                        min_df=1,
+                                                        ngram_range=(1, 1),
+                                                        preprocessor=None,
+                                                        stop_words=None,
+                                                        strip_accents=None,
+                                                        token_pattern='(?u)\\b\\w\\w+\\b',
+                                                        tokenizer=None,
+                                                        vocabulary=None)),
+                                       ('mnb',
+                                        MultinomialNB(alpha=1.0,
+                                                      class_prior=None,
+                                                      fit_prior=True))],
+                                verbose=False),
+             iid='deprecated', n_jobs=-1,
+             param_grid={'cvec__max_features': [1000, 5000, 10000],
+                         'cvec__ngram_range': [(1, 1), (1, 2), (1, 3)]},
+             pre_dispatch='2*n_jobs', refit=True, return_train_score=False,
+             scoring=None, verbose=0)",cvec,0.9067351847802316,0.9014541346258974
+"GridSearchCV(cv=5, error_score=nan,
+             estimator=Pipeline(memory=None,
+                                steps=[('tvec',
+                                        TfidfVectorizer(analyzer='word',
+                                                        binary=False,
+                                                        decode_error='strict',
+                                                        dtype=<class 'numpy.float64'>,
+                                                        encoding='utf-8',
+                                                        input='content',
+                                                        lowercase=True,
+                                                        max_df=1.0,
+                                                        max_features=None,
+                                                        min_df=1,
+                                                        ngram_range=(1, 1),
+                                                        norm='l2',
+                                                        preprocessor=None,
+                                                        smooth_idf=True,
+                                                        stop_words=None,
+                                                        strip_acce...
+                                                        token_pattern='(?u)\\b\\w\\w+\\b',
+                                                        tokenizer=None,
+                                                        use_idf=True,
+                                                        vocabulary=None)),
+                                       ('mnb',
+                                        MultinomialNB(alpha=1.0,
+                                                      class_prior=None,
+                                                      fit_prior=True))],
+                                verbose=False),
+             iid='deprecated', n_jobs=-1,
+             param_grid={'tvec__max_features': [1000, 5000, 10000],
+                         'tvec__ngram_range': [(1, 1), (1, 2), (1, 3)]},
+             pre_dispatch='2*n_jobs', refit=True, return_train_score=False,
+             scoring=None, verbose=0)",tvec,0.9018271496950699,0.8968256860672765
+"GridSearchCV(cv=5, error_score=nan,
+             estimator=Pipeline(memory=None,
+                                steps=[('tvec',
+                                        TfidfVectorizer(analyzer='word',
+                                                        binary=False,
+                                                        decode_error='strict',
+                                                        dtype=<class 'numpy.float64'>,
+                                                        encoding='utf-8',
+                                                        input='content',
+                                                        lowercase=True,
+                                                        max_df=1.0,
+                                                        max_features=None,
+                                                        min_df=1,
+                                                        ngram_range=(1, 1),
+                                                        norm='l2',
+                                                        preprocessor=None,
+                                                        smooth_idf=True,
+                                                        stop_words=None,
+                                                        strip_acce...
+                                                        token_pattern='(?u)\\b\\w\\w+\\b',
+                                                        tokenizer=None,
+                                                        use_idf=True,
+                                                        vocabulary=None)),
+                                       ('mnb',
+                                        MultinomialNB(alpha=1.0,
+                                                      class_prior=None,
+                                                      fit_prior=True))],
+                                verbose=False),
+             iid='deprecated', n_jobs=-1,
+             param_grid={'tvec__max_features': [1000, 5000, 10000],
+                         'tvec__ngram_range': [(1, 1), (1, 2), (1, 3)]},
+             pre_dispatch='2*n_jobs', refit=True, return_train_score=False,
+             scoring=None, verbose=0)",tvec,0.90182714969507,0.8968256860672765
